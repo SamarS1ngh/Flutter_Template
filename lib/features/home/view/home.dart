@@ -1,5 +1,5 @@
-import 'package:fluttemp/Utils/constants/app_constants.dart';
-import 'package:fluttemp/View/shared/centred_text_button.dart';
+import 'package:fluttemp/core/constants/app_constants.dart';
+import 'package:fluttemp/features/shared/widgets/centred_text_button.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {

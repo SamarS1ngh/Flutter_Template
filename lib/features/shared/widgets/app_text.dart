@@ -1,4 +1,4 @@
-import 'package:fluttemp/Utils/constants/app_constants.dart';
+import 'package:fluttemp/core/constants/app_constants.dart';
 import 'package:flutter/material.dart';
 
 class AppText extends StatelessWidget {

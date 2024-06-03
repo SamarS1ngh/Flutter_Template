@@ -1,7 +1,8 @@
-import 'package:fluttemp/Utils/constants/app_colors.dart';
-import 'package:fluttemp/Utils/constants/app_constants.dart';
-import 'package:fluttemp/Utils/constants/app_dimensions.dart';
+import 'package:fluttemp/core/constants/app_constants.dart';
+
 import 'package:flutter/material.dart';
+
+import '../../../core/constants/app_colors.dart';
 
 class CenteredTextButton extends StatelessWidget {
   final String label;

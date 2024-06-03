@@ -1,15 +1,17 @@
 import 'package:fluttemp/Utils/Routes/app_router_config.dart';
-import 'package:fluttemp/Utils/constants/app_constants.dart';
+import 'package:fluttemp/core/constants/app_constants.dart';
+import 'package:fluttemp/Utils/data/local/local_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
   ]);
+  await LocalStorageService.init();
   runApp(const ProviderScope(child: MyApp()));
 }
 

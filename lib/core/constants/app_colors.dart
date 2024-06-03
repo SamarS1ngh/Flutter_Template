@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 class AppColorsTheme extends ThemeExtension<AppColorsTheme> {
   //reference colors
   static const Color _littleDarkBlue = Color(0XFF162c46);
-  static const Color _grey = Color(0xFF9E9E9E);
-  static const Color _red = Color(0XFFB00020);
-  static const Color _green = Color(0XFF00C853);
+  static const Color _grey = Color(0xD69E9E9E);
+  static const Color _red = Color(0xFFAF0121);
+  static const Color _green = Color(0xFF00F318);
   static const Color _darkBlue = Color(0XFF021427);
   static const Color _white = Color(0xFFFFFFFF);
 
